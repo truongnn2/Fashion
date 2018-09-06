@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources code="en">
+	<tag value="eStatusUser" ghichu="">
+		<enum value="0">Cho phép</enum>
+		<enum value="1">Không cho phép</enum>
+	</tag>
+	<tag value="eStatusUserRole" ghichu="">
+		<enum value="0">Cho phép</enum>
+		<enum value="1">Không cho phép</enum>
+	</tag>
+	<tag value="eUserRole" ghichu="">
+		<enum value="0">Quyền Admin</enum>
+		<enum value="1">Quyền nhập tin</enum>
+		<enum value="2">Quyền nhập tin theo loại</enum>
+	</tag>
+	<tag value="eStatusNews" ghichu="">
+		<enum value="0">Đang đăng</enum>
+		<enum value="1">Ngừng đăng</enum>
+	</tag>
+	<tag value="eTypeNews" ghichu="">
+		<enum value="0">Loại tin 1</enum>
+		<enum value="1">Loại tin 2</enum>
+	</tag>
+	<tag value="eStatusProducts" ghichu="">
+		<enum value="0">Đang đăng</enum>
+		<enum value="1">Ngừng đăng</enum>
+	</tag>
+	<tag value="eStatusMenu" ghichu="">
+		<enum value="0">Hiển thị</enum>
+		<enum value="1">Không hiển thị</enum>
+	</tag>
+	<tag value="eStatusMenuSub" ghichu="">
+		<enum value="0">Hiển thị</enum>
+		<enum value="1">Không hiển thị</enum>
+	</tag>
+	<tag value="eStatusQA" ghichu="">
+		<enum value="0">Hiển thị</enum>
+		<enum value="1">Không hiển thị</enum>
+		<enum value="2">Chưa trả lời</enum>
+	</tag>
+	<tag value="eStatusContactUs" ghichu="">
+		<enum value="0">Chưa trả lời</enum>
+		<enum value="1">Đã trả lời</enum>
+	</tag>
+	<tag value="eStatusBoxAd" ghichu="">
+		<enum value="0">Hiển thị</enum>
+		<enum value="1">Không hiển thị</enum>
+	</tag>
+	<tag value="eCategoryBoxAd" ghichu="">
+		<enum value="0">Bên Phải</enum>
+    <enum value="1">Bên Trái</enum>
+	</tag>
+	<tag value="eLocationMenu" ghichu="">
+		<enum value="0">0</enum>
+		<enum value="1">1</enum>
+		<enum value="2">2</enum>
+		<enum value="3">3</enum>
+		<enum value="4">4</enum>
+		<enum value="5">5</enum>
+		<enum value="6">6</enum>
+		<enum value="7">7</enum>
+		<enum value="8">8</enum>
+		<enum value="9">9</enum>
+		<enum value="10">10</enum>
+		<enum value="11">11</enum>
+		<enum value="12">12</enum>
+		<enum value="13">13</enum>
+		<enum value="14">14</enum>
+		<enum value="15">15</enum>
+		<enum value="16">16</enum>
+		<enum value="17">17</enum>
+		<enum value="18">18</enum>
+		<enum value="19">19</enum>
+		<enum value="20">20</enum>
+		<enum value="21">21</enum>
+		<enum value="22">22</enum>
+		<enum value="23">23</enum>
+		<enum value="24">24</enum>
+		<enum value="25">25</enum>
+		<enum value="26">26</enum>
+		<enum value="27">27</enum>
+		<enum value="28">28</enum>
+		<enum value="29">29</enum>
+		<enum value="30">30</enum>
+		<enum value="31">31</enum>
+		<enum value="32">32</enum>
+		<enum value="33">33</enum>
+		<enum value="34">24</enum>
+		<enum value="35">35</enum>
+		<enum value="36">36</enum>
+		<enum value="37">37</enum>
+		<enum value="38">38</enum>
+		<enum value="39">39</enum>
+		<enum value="40">40</enum>
+	</tag>
+	<tag value="eIsShowDefault" ghichu="">
+		<enum value="1">Có</enum>
+		<enum value="0">Không</enum>
+	</tag>
+</Resources>

@@ -1,0 +1,2 @@
+﻿pathClient="http://localhost/hamluong";
+

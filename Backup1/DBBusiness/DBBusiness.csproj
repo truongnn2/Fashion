@@ -1,0 +1,115 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3A4EE59-4BD7-41BF-B118-A60A50BC1C96}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DBBusiness</RootNamespace>
+    <AssemblyName>DBBusiness</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contactus.cs" />
+    <Compile Include="BoxAd.cs" />
+    <Compile Include="BoxAdDB.cs" />
+    <Compile Include="AccountTTNB.cs" />
+    <Compile Include="AccountTTNBDB.cs" />
+    <Compile Include="Blog.cs" />
+    <Compile Include="BlogDB.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="CommentDB.cs" />
+    <Compile Include="CommentFont.cs" />
+    <Compile Include="CommentFontDB.cs" />
+    <Compile Include="CatServices.cs" />
+    <Compile Include="CatServicesDB.cs" />
+    <Compile Include="CatSubServices.cs" />
+    <Compile Include="CatSubServicesDB.cs" />
+    <Compile Include="Services.cs" />
+    <Compile Include="ServicesDB.cs" />
+    <Compile Include="MenuSubSub.cs" />
+    <Compile Include="MenuSubSubDB.cs" />
+    <Compile Include="Solution.cs" />
+    <Compile Include="SolutionDB.cs" />
+    <Compile Include="SupportOnline.cs" />
+    <Compile Include="SupportOnlineDB.cs" />
+    <Compile Include="GioiThieu.cs" />
+    <Compile Include="GioiThieuDB.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerDB.cs" />
+    <Compile Include="Giamgia.cs" />
+    <Compile Include="GiamgiaDB.cs" />
+    <Compile Include="Employment.cs" />
+    <Compile Include="EmploymentDB.cs" />
+    <Compile Include="Guest.cs" />
+    <Compile Include="GuestDB.cs" />
+    <Compile Include="LinkWebsite.cs" />
+    <Compile Include="LinkWebsiteDB.cs" />
+    <Compile Include="Products.cs" />
+    <Compile Include="ProductsDB.cs" />
+    <Compile Include="DBRegion.cs" />
+    <Compile Include="DowloadDB.cs" />
+    <Compile Include="Download.cs" />
+    <Compile Include="GalleryImage.cs" />
+    <Compile Include="GalleryImageDB.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="MenuDB.cs" />
+    <Compile Include="MenuSub.cs" />
+    <Compile Include="MenuSubDB.cs" />
+    <Compile Include="News.cs" />
+    <Compile Include="NewsDB.cs" />
+    <Compile Include="getList.cs" />
+    <Compile Include="AboutUs.cs" />
+    <Compile Include="AboutUsDB.cs" />
+    <Compile Include="ContactusDB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QA.cs" />
+    <Compile Include="QADB.cs" />
+    <Compile Include="Admin.cs" />
+    <Compile Include="AdminDB.cs" />
+    <Compile Include="UserRole.cs" />
+    <Compile Include="UserRoleDB.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataProvider\DataProvider.csproj">
+      <Project>{7AF1569F-579E-4745-9EB3-41CCBB91D568}</Project>
+      <Name>DataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+bin\Debug\DataProvider.dll
+bin\Debug\DataProvider.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataProvider.dll
+obj\Debug\DataProvider.pdb

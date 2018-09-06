@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Labe22" xml:space="preserve">
+    <value>page 2</value>
+  </data>
+  <data name="Label1" xml:space="preserve">
+    <value>Multi Languegue</value>
+  </data>
+  <data name="lblAboutUs" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="lblAddtoCart" xml:space="preserve">
+    <value>Add to cart</value>
+  </data>
+  <data name="lblAdvertising" xml:space="preserve">
+    <value>Advertising</value>
+  </data>
+  <data name="lblCapnhadulieu" xml:space="preserve">
+    <value>Updating data! Please come back later.</value>
+  </data>
+  <data name="lblChitet" xml:space="preserve">
+    <value>detail</value>
+  </data>
+  <data name="lblChitietSp" xml:space="preserve">
+    <value>Product Details</value>
+  </data>
+  <data name="lblContinueShopping" xml:space="preserve">
+    <value>Continue Shopping</value>
+  </data>
+  <data name="lblCopyright" xml:space="preserve">
+    <value>Copyright Research Institute of Southern fruit</value>
+  </data>
+  <data name="lblDefault" xml:space="preserve">
+    <value>RESEARCH INSTITUTE FRUIT SOUTHERN</value>
+  </data>
+  <data name="lblDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lblDescription" xml:space="preserve">
+    <value>Descriptions</value>
+  </data>
+  <data name="lbldiachi" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lbldienthoai" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="lblFind" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="lblFunction" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="lblGiohang" xml:space="preserve">
+    <value>Your Cart</value>
+  </data>
+  <data name="lblGioithieu" xml:space="preserve">
+    <value>ABOUT US</value>
+  </data>
+  <data name="lblGioithieu1" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="lblGuiLienHe" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="lblHoidap" xml:space="preserve">
+    <value>QUESTION ASWER</value>
+  </data>
+  <data name="lblHoidap1" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="lblHoidap11" xml:space="preserve">
+    <value>QA DETAIL</value>
+  </data>
+  <data name="lblhoten" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblHotNews" xml:space="preserve">
+    <value>Latestnews</value>
+  </data>
+  <data name="lblKeyword" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="lblLienhe" xml:space="preserve">
+    <value>CONTACT</value>
+  </data>
+  <data name="lblLienhe1" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="lblLuotTruyCap" xml:space="preserve">
+    <value>Visitors</value>
+  </data>
+  <data name="lblNewProduct" xml:space="preserve">
+    <value>New Products</value>
+  </data>
+  <data name="lblNoData" xml:space="preserve">
+    <value>No data!</value>
+  </data>
+  <data name="lblNodata1" xml:space="preserve">
+    <value>Updating the product, please check back later!</value>
+  </data>
+  <data name="lblnoidung" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="lblNoProductCart" xml:space="preserve">
+    <value>There are no products in your shopping cart</value>
+  </data>
+  <data name="lblNumber" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="lblOrder" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="lblPriceProduct" xml:space="preserve">
+    <value>Price/Product</value>
+  </data>
+  <data name="lblProduct" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="lblProductSelected" xml:space="preserve">
+    <value>Products selected</value>
+  </data>
+  <data name="lblResultSearch" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="lblResultSearch1" xml:space="preserve">
+    <value>SEARCH RESULTS</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblSendOrder" xml:space="preserve">
+    <value>Send orders</value>
+  </data>
+  <data name="lblSendOrderSuccess" xml:space="preserve">
+    <value>You've successfully sent orders, we will soon contact you, thank you!</value>
+  </data>
+  <data name="lblSendSuccess" xml:space="preserve">
+    <value>You sent a contact success, thank you!</value>
+  </data>
+  <data name="lblServices" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="lblSimilarProduct" xml:space="preserve">
+    <value>Similar Products</value>
+  </data>
+  <data name="lblSpTieubieu" xml:space="preserve">
+    <value>Typical products</value>
+  </data>
+  <data name="lblTinCungMuc" xml:space="preserve">
+    <value>The same news item</value>
+  </data>
+  <data name="lblTitleCategory" xml:space="preserve">
+    <value>Product Category</value>
+  </data>
+  <data name="lblTitleNewDefault" xml:space="preserve">
+    <value>News update</value>
+  </data>
+  <data name="lblTitleNewDetail" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="lblTitleNewDetail1" xml:space="preserve">
+    <value>NEWS DETAIL</value>
+  </data>
+  <data name="lblTitlesupport" xml:space="preserve">
+    <value>Online Support</value>
+  </data>
+  <data name="lblTrangchu" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="lblTTKH" xml:space="preserve">
+    <value>SUBSIDIARIES</value>
+  </data>
+  <data name="lblTTKH1" xml:space="preserve">
+    <value>Subsidiaries</value>
+  </data>
+  <data name="lblTTNB" xml:space="preserve">
+    <value>Internal Information</value>
+  </data>
+  <data name="lblUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="lblViewDetailCart" xml:space="preserve">
+    <value>View Detail Cart</value>
+  </data>
+</root>

@@ -1,0 +1,304 @@
+body{ font-family:Arial,Helvetica,Tahoma,Verdana,sans-serif;font-size:12px;height:100%;margin:0;padding:0;text-align:left; color:#000; background:#fff url(../images/bg.png) repeat-x top;}
+
+html,body,div,p,ul,ol,li,table,tr,td,h1,h2,h3,h4,h5,h6,span {padding:0;margin:0;outline:hidden;}
+
+li { list-style:none;}
+
+fieldset,img {border:0;outline:hidden;}
+
+select,input,textarea{ padding-left:2px; font-family:arial; margin:0; padding:0;}
+
+p{ margin-top:5px}
+
+a:link,a:visited,a:active,a:hover{text-decoration:none; outline:none;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){}
+
+.mar_t10 { margin-top:10px;}
+.mar_b10 { margin-bottom:10px;}
+
+/*clear border*/
+	.clr_borright { border-right:0 !important;}
+	.clr_borleft { border-left:0 !important;}
+	.clr_borbottom { border-bottom:0 !important;}
+	.clr_bortop { border-top:0 !important;}
+	.clr_bg { background:transparent !important;}
+
+
+/* button 2 */
+	.cornerL_button_2 { float:left; width:5px; background:url(../images/button_bg.png) no-repeat 0 0;  height:24px;}
+	.cornerR_button_2 { float:left; width:5px; background:url(../images/button_bg.png) no-repeat -7px 0;  height:24px;}
+	.bg_button_2 { float:left; background:url(../images/repeat.png) repeat-x; color:#fff; cursor:pointer; font-weight:bold; padding:0 6px; height:24px;}
+	.bg_button_2 a {color:#fff; font-size:12px; padding-top:3px; display:block;}
+	.bg_button_2 a:hover {color:#ffff00;}
+
+/**/
+.TopHeader { background:url(../images/repeat_top_header.png) repeat-x; height:342px;}
+.TopHeader .Content { width:980px; position:relative; height:342px;}
+.TopHeader ul { margin-left:372px;}
+.TopHeader li { float:left; padding:26px 12px; font-size:16px; font-weight:bold; text-transform:uppercase;}
+.TopHeader li a { color:#000;}
+.TopHeader li a:hover, .TopHeader li.current a { color:#ce0000;}
+
+	.Logo { position:absolute; left:0; top:0;}
+	
+	.Language { float:right; padding-top:26px;}
+	.Language a{ margin-left:5px;}
+	
+	.Banner_top { position:absolute; bottom:0; *bottom:-3px; right:0; }
+	.Banner_top a {z-index:0; position:relative;}
+	
+	.layermask { position:absolute; top:0; left:0; z-index:1;}
+	
+	.Aboutus { position:absolute; bottom:43px; left:0; width: 384px; text-align:left; padding-bottom:5px; color:#FFFFFF; font-size:13px; line-height:18px;}
+	.Aboutus h2 { font-size:13px; font-weight:bold; background:url(../images/bor_bottom.gif) no-repeat left bottom; padding-bottom:4px; margin-bottom:6px; text-transform:uppercase;}
+	.Aboutus span { color:#ffff00; font-weight:bold;}
+	.Aboutus a { color:#fff;}
+	.Aboutus a:hover { color:#ffff00;}
+	
+	.Search { position:absolute; bottom:0; left:0;}
+	.Search h3 { float:left; width:63px; color:#3299d3; font-weight:bold; font-size:15px; background:url(../images/icon_search.gif) no-repeat; padding:6px 0 12px 50px;}
+	.Search h3 span { padding-top:5px; display:block;}
+	.Search .input_text { float:left; width:216px; margin:8px 0 0 10px; height:20px;}
+	.Search .Button { float:left; width:50px; padding-top:8px; margin-left:-2px;}
+	
+	.Aboutus .viewmore { position:absolute; bottom:0; right:0;}
+	.viewmore a { color:#fff; background:url(../images/icon_dhl.png) no-repeat 0 4px; padding-left:12px; font-size:11px;}
+	.viewmore a:hover { color:#ffff00;}
+
+/**/
+.Bottom_Footer { background:url(../images/repeat_bottom_footer.png) repeat-x; height:60px; font-size:13px; color:#FFFFFF; padding:30px 0; line-height:22px;}
+.Bottom_Footer div { font-size:11px; font-weight:bold;}
+.Bottom_Footer span { color:#ffff00; font-weight:bold;}
+.Bottom_Footer a { color:#fff;}
+.Bottom_Footer a:hover { color:#ffff00;}
+
+	
+/**/
+.ContentPages { width:960px; background-color:#fff; overflow:hidden; padding:10px;}
+.ColLeft { float: left; width: 210px;}
+.ColMiddle { float: left; width: 550px; margin-left:10px;}
+.ColRight { float: left; width:180px; margin-left:10px;}
+
+/*MENU MAIN
+*******************************************************/
+#MainMenu { border:1px #d7d6e7 solid; text-align:left;}
+#MainMenu h2 { font-size:16px; font-weight:bold; padding:5px;}
+#MainMenu ul { border-top:3px solid #d50000;}
+#MainMenu li.menuheaders { font-size:12px; font-weight:bold; color:#000; line-height:28px;}
+#MainMenu li.menuheaders a { background:url(../images/bg_menuheaders.png) no-repeat; display:block; width:208px; color:#000;}
+#MainMenu li.menuheaders a:hover, #MainMenu li.menuheaders a:hover label, #MainMenu li.menuheaders a.current { background-position: 0 -29px; color:#fff;}
+#MainMenu li.menuheaders span { padding:0 0 0 30px;}
+#MainMenu ul.menucontents { border:0;}
+#MainMenu ul.menucontents li { border-bottom:1px #f2f2f8 solid; line-height:25px; font-weight:normal; font-size:12px;}
+#MainMenu ul.menucontents li a, #MainMenu ul.menucontents li a label { color:#000; background:#fff;}
+#MainMenu ul.menucontents li a:hover, #MainMenu ul.menucontents li a.current { color:#d50000; background:url(../images/arrow_menucontents.png) 14px 10px no-repeat;}
+#MainMenu li.menuheaders label { color:#d50000; font-weight:normal; font-size:11px;}
+#MainMenu ul.menucontents span { font-weight:norma; padding:0 0 0 30px;}
+
+
+#MainMenu ul.menucontents li.AddCategory a { color:#0099cc;}
+#MainMenu ul.menucontents li.AddCategory a:hover, #MainMenu ul.menucontents li.AddCategory a:hover label, #MainMenu ul.menucontents li.AddCategory a.current { color:#d50000;}
+
+/*corner 1*/
+	.cornerL { background:url(../images/corner_bg.png) no-repeat ; width:6px; height:35px;}
+	.cornerR { background:url(../images/corner_bg.png) no-repeat -6px 0; width:6px; height:35px;}
+	
+/*titlebox M1*/	
+	.TitleBox_M1 { padding: 8px 0 0 10px; height:27px; text-align:left;}
+	.TitleBox_M1 h2 { font-size:16px; font-weight:bold;}
+/* middle box 1 */	
+	.M_Box_1 { position:relative; text-align:left;}
+	.M_Box_1 .cornerL { position:absolute; top:0; left:0;}
+	.M_Box_1 .cornerR { position:absolute; top:0; right:0;}
+	.M_Box_1 .TitleBox_M1 { background:url(../images/repeat_bg.png) repeat-x 0 -95px; }
+/*content middle box 1*/
+	.ContentBox_M1 { border:1px #ccc solid; border-top:none; overflow:hidden;}
+	.ContentBox_M2 { border:1px #ccc solid; o:hidden;}
+	
+/*titlebox R1*/	
+	.TitleBox_R1 { padding: 8px 0 0 10px; height:27px; text-align:left;}
+	.TitleBox_R1 h2 { font-size:16px; font-weight:bold;}
+/* right box 1 */	
+	.R_Box_1 { position:relative; text-align:left;}
+	.R_Box_1 .cornerL { position:absolute; top:0; left:0;}
+	.R_Box_1 .cornerR { position:absolute; top:0; right:0;}
+	.R_Box_1 .TitleBox_R1 { background:url(../images/repeat_bg.png) repeat-x 0 -95px; }
+	
+	
+/**/
+.R_BoxAdv { }
+.R_BoxAdv h4 { border-top:1px solid #ccc; position:relative; margin-bottom:14px;}
+.R_BoxAdv h4 span { display:block; background-color:#fff; font-size:12px; font-weight:bold; width:70px; position:absolute; top:-7px; right:12px;}
+
+	.Banner_R { width:180px;}
+
+/**/
+.ColImg { float:left;}
+.ColDes { float:left; margin-left:10px;}
+
+/**/
+.BoxPro_New_1 {}
+.BoxPro_New_1 ul{}
+.BoxPro_New_1 li{ clear:both; overflow:hidden; border-top:1px solid #ddd; padding:10px; _margin-bottom:10px;}
+.BoxPro_New_1 li a { color:#000;}
+.BoxPro_New_1 li a:hover{ color:#0066cc;}
+
+.BoxPro_New_1 .ColImg { width:72px;}
+.BoxPro_New_1 .ColDes { width:76px;}
+.BoxPro_New_1 p { line-height:16px;}
+.BoxPro_New_1 span { font-weight:bold;}
+.BoxPro_New_1 font { color:#ce0000; font-size:12px;}
+
+/**/
+
+.BoxPro_M1 { overflow:hidden;_width:548px;}
+.BoxPro_M1 h2 { font-size:16px; font-weight:bold; padding:10px; border-top:1px dashed #ddd;}
+.BoxPro_M1 ul{ margin-left:2px; _margin-left:-10px;}
+.BoxPro_M1 li{ float:left; width:162px; padding:0 10px 15px 10px;}
+.BoxPro_M1 li a{ color:#000;}
+.BoxPro_M1 li a:hover{ color:#0066cc;}
+.BoxPro_M1 .Img { border:1px solid #e8e8e8; }
+.BoxPro_M1 .Des p{ font-size:13px; line-height:18px; text-align:center;}
+.BoxPro_M1 .Des span { font-weight:bold;}
+.BoxPro_M1 .Des font { font-size:12px; color:#ce0000;}
+.BoxPro_M1 .PagesNumber { margin-right:8px; _margin-right:4px;}
+
+	a.LinkBuy { display:block; margin:3px 0 0 44px; background:url(../images/icon.png) no-repeat 0 -23px; padding-left:22px; color:#2787b8 !important; font-size:12px; padding-top:2px;}
+	a.LinkBuy:hover { color:#ce00000 !important;}
+	
+/**/
+.Service_L { width:210px;}
+
+/**/
+.Support_L { border:2px solid #2788b9;}
+.Support_L h2 { margin:10px; padding:5px 0 8px 34px; background:url(../images/icon.png) no-repeat 0 -62px; font-size:16px; font-weight:bold; text-align:left; border-bottom:1px dashed #ddd;}
+	.YM { font-size:13px; font-weight:bold; line-height:22px; margin-bottom:8px;}
+	.YM span{ color:#3299d2;}
+	
+/**/
+.BoxAbout_M1 { overflow:hidden;_width:548px;}
+.BoxAbout_M1 p { padding:0 10px 10px 10px; line-height:18px;}
+
+/**/
+.BoxContact_M1 { overflow:hidden;_width:528px; display:block; padding:10px; position:relative;}
+.BoxContact_M1 .ColImg { float:left; width:262px;}
+.BoxContact_M1 .ColImg img { border:1px solid #ddd;}
+.BoxContact_M1 .ColDes {float:left; width:256px; line-height:18px;}
+.BoxContact_M1 .ColDes span { font-weight:bold; color:#ec0000;}
+.BoxContact_M1 .Title {
+    color: #0099cc !important;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase; display:block;
+}
+.BoxContact_M1 .ColDes div { padding-top:7px;}
+.BoxContact_M1 a { color:#000;}
+.BoxContact_M1 a:hover { color:#0099cc;}
+
+.BoxContact_M1 .Form { clear:both; padding-top:10px;}
+.BoxContact_M1 h2 { font-size:12px; font-weight:bold; text-transform:uppercase; color: #0099cc;}
+.BoxContact_M1 .Form table { width:100%; margin-top:5px;}
+.BoxContact_M1 .Form td { padding:5px 0 0 0;}
+.BoxContact_M1 .Form label { font-weight:bold;}
+.BoxContact_M1 .Form input { width:461px;}
+.BoxContact_M1 .Form textarea { width:461px;}
+
+ul.button {}
+ul.button li{ border-bottom:2px solid #ddd;border-right:2px solid #ddd;  float:left; width:auto; margin-right:10px; font-weight:bold;}
+ul.button li a{ color:#fff;display:block; padding:3px 10px; background-color:#ce0000;border:1px solid #ddd; }
+ul.button li a:hover{ color:#000000; background-color:#eee;}
+
+.paging a
+{
+	text-decoration:none;
+	line-height:15px;
+	color:#666666;
+}
+
+.paging a:hover
+{
+	background-color:#990000;
+	color:#FFFFFF;
+}
+
+.paging a.next
+{
+	text-decoration:none;
+}
+
+.paging a.next:hover{}
+
+.paging a.pre:hover{}
+.st_uti {margin:5px 0; border-width: 1px;float:right;}
+.st_uti .page{ float:right;padding:10px 0}
+.st_uti .page a{ padding:0px 5px;border:1px solid #d3d3d3; margin:2px; float:left}
+.st_uti .page a:hover{ padding:0px 5px;border:1px solid #d3d3d3; margin:2px; float:left; background-color:#eeeeee; text-decoration:none; color:#0087c7}
+
+
+/* phan trang */
+	.PagesNumber { clear:both; overflow:hidden; margin:10px 0; float:right; *margin-right:-2px;}
+	.PagesNumber li { margin:0 2px !important; padding:2px 0 !important; float:left; width:auto !important;}
+	.PagesNumber li a { border:1px #ddd solid; background-color:#fff; padding:1px 5px; font-weight:bold; color:#555;}
+	.PagesNumber li a:hover, .PagesNumber li a.current{ background-color:#0084C2; color:#fff;}
+	.PagesNumber li.PagesNext a  { border:none; padding:0; background: url(../images/icon_button.png) no-repeat -14px -112px; display: block; height: 16px; width: 9px; border:none;}
+	.PagesNumber li.PagesNext a:hover, .PagesNumber li.PagesNext a.current { background-position:-14px -137px;}
+	.PagesNumber li.PagesPrivious a { border:none; padding:0; background: url(../images/icon_button.png) no-repeat 0 -112px; display: block;height: 16px; width: 9px;}
+	.PagesNumber li.PagesPrivious a:hover, .PagesNumber li.PagesPrivious a.current { background-position: 0 -137px !important;}
+	
+	
+/**/
+.Box_M1 { overflow:hidden;_width:528px; display:block; padding:10px; position:relative;}
+.Box_M1 .ColImg { float:left; width:262px;}
+.Box_M1 .ColImg img { border:1px solid #eee;}
+.Box_M1 .ColDes {float:left; width:256px; line-height:18px;}
+.Box_M1 .ColDes span { font-weight:bold; color:#ec0000;}
+.Box_M1 .Title {
+    color: #0099cc !important;
+    font-weight: bold;
+    padding-bottom: 10px;
+    display:block;
+	font-size:16px;
+}
+.Box_M1 a { color:#000;}
+.Box_M1 a:hover { color:#0099cc;}
+
+.Box_M1 .Form { clear:both; padding-top:10px;}
+.Box_M1 h2 { font-size:12px; font-weight:bold; text-transform:uppercase;}
+.Box_M1 .Form table { width:100%; margin-top:5px;}
+.Box_M1 .Form td { padding:5px 0 0 0;}
+.Box_M1 .Form label { font-weight:bold;}
+.Box_M1 .Form input { width:461px;}
+.Box_M1 .Form textarea { width:461px;}
+
+.Box_M1 .Groupmain { margin-top:10px; border: 1px solid #e8e9e9; text-align:left; background-color:#f2f2f3; padding:5px;}
+.Box_M1 .Groupmain table { width:100%;}
+.Box_M1 .Groupmain label { font-weight:bold;}
+.Box_M1 .Groupmain span { color:#ce0000; }
+.Box_M1 .Groupmain .input_text { width:98%; height:18px;}
+.Box_M1 .Groupmain .button {border-color:#ccc; border-style:solid; border-width:1px 3px 3px 1px; background-color:#fff;}
+.Box_M1 .Groupmain .button a { font-size:14px; font-weight:bold; background-position:0 -20px; margin:5px 4px;}
+
+.Box_M1 .Group_1 { font-weight:bold; color:#00CC00;}
+.Box_M1 .Group_1 a { color:#ce0000;}
+.Box_M1 .Group_1 a:hover { color:#0099cc;}
+
+/*content middle box 1*/
+	.ContentBox_M1 { border:1px #ccc solid; border-top:none; overflow:hidden;}
+	.ContentBox_M2 { border:1px #ccc solid; overflow:hidden;}
+	.ContentBox_M3 { border:1px #ccc solid; border-top:none; overflow:hidden; padding:10px;}
+	.ContentBox_M3 .input_text { width:50px; height:18px;}
+	.ContentBox_M3 table { width:528px; border-top:1px #ddd solid; border-left:1px #ddd solid; border-collapse:collapse;}
+	.ContentBox_M3 td { padding:5px; border-bottom:1px #ddd solid; border-right:1px #ddd solid; vertical-align:middle; text-align:center;}
+	.ContentBox_M3 tr.bg { background:#CCCCCC;}
+	.ContentBox_M3 label { font-weight:bold;}
+	.ContentBox_M3 .ColImg { width:62px;}
+	.ContentBox_M3 .ColImg img { border:1px #ddd solid;}
+	.ContentBox_M3 .ColDes { width:121px;}
+	.ContentBox_M3 .ColDes h4{ font-size:11px; text-align:left; color:#0066cc;}
+	.ContentBox_M3 .ColDes a { color:#0066cc;}
+	.ContentBox_M3 .ColDes a:hover { color:#ce0000;}
+	.ContentBox_M3 span { color:#ce0000; font-weight:bold;}
+	.ContentBox_M3 .Group_2 { margin-top:15px;}
+	.ContentBox_M3 .Group_2 a{ color:#0066cc; font-weight:bold;}
+	.ContentBox_M3 .Group_2 a:hover{ color:#ce0000;}

@@ -35,14 +35,6 @@
             	            <span class="section_content_top"></span>
             	            <div class="section_content_inner">
             	                <table style="width:900px">
-            	                     <tr>
-            	                        <td>
-            	                            <label><strong>Mã sản phẩm:</strong></label>
-            	                        </td>
-            	                        <td>
-            	                              <input id="txtIdInput" type="text" class="text-long" runat="server" style="width: 561px" />
-            	                        </td>
-            	                    </tr>
             	                    <tr>
             	                        <td>
             	                            <label><strong>Tên sản phẩm:</strong></label>
@@ -68,7 +60,7 @@
                                                 </select>
             	                        </td>
             	                    </tr> 
-            	                    <tr>
+            	                    <!--tr>
             	                        <td>
             	                            <label><strong>Danh mục sản phẩm cấp 2:</strong></label>
             	                        </td>
@@ -76,7 +68,7 @@
             	                               <select name="sltCategoryDetail" style="WIDTH:150px" id="sltCategoryDetail" runat="server" onchange="changeSelect('sltCategoryDetail','hdCategoryDetail');ajxProducts.GetListCatDetailSub();">
                                                 </select>
             	                        </td>
-            	                    </tr>
+            	                    </!tr-->
             	                    <tr style="display:none;">
             	                        <td>
             	                            <label><strong>Danh mục sản phẩm cấp 3:</strong></label>

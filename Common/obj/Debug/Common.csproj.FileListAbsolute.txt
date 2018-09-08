@@ -28,3 +28,9 @@ D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\Common\
 D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\Common\obj\Debug\ResolveAssemblyReference.cache
 D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\Common\obj\Debug\Common.dll
 D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\Common\obj\Debug\Common.pdb
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\Common\bin\Debug\Common.dll
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\Common\bin\Debug\Common.pdb
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\Common\obj\Debug\Common.dll
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\Common\obj\Debug\Common.pdb

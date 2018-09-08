@@ -1513,7 +1513,7 @@ public partial class Admin_handler_Logout : System.Web.UI.Page
             plFirstPage = count;
         }
 
-        string SQL = "select top " + rowsOnPage.ToString() + " ID,Title,(select Name from Menu where ID=Category) as CategoryName,Status,DateCreate,(select Name from MenuSub where ID=CategoryDetail) as CategoryNameDetail,Location,IsShowDefault,TitleE,IdInput from Products where ID in (select top " + plFirstPage.ToString() + " ID from Products where ID>0 " + condi + " order by ID desc)  order by ID asc";
+        string SQL = "select top " + rowsOnPage.ToString() + " ID,Title,(select Name from Menu where ID=Category) as CategoryName,Status,DateCreate,(select Name from MenuSub where ID=CategoryDetail) as CategoryNameDetail,Location,IsShowDefault,TitleE from Products where ID in (select top " + plFirstPage.ToString() + " ID from Products where ID>0 " + condi + " order by ID desc)  order by ID asc";
         IList list = db.getlist(SQL);
         if (list != null && list.Count > 0)
         {
@@ -1528,13 +1528,13 @@ public partial class Admin_handler_Logout : System.Web.UI.Page
                     cl = "";
                 temptd += String.Format(tempItem,
                     /*0*/cl,
-                    /*1*/common.ToString(o[9]),
+                    /*1*/common.ToString(o[0]),
                     /*2*/common.ToString(o[1]),
                     /*3*/common.ToString(o[2]),
                     /*4*/common.GetEnumType(typeof(eStatusNews), common.ToString(o[3])),
                     /*5*/String.Format(func, common.ToString(o[0])),
                     /*6*/common.ToString(o[4]),
-                    /*7*/common.ToString(o[5]),
+                    /*7*/"",//common.ToString(o[5]),
                     /*8*/common.ToString(o[6]),
                     /*9*/common.ToString(o[7]) == "1" ? "Có" : "Không",
                     /*10*/common.ToString(o[8]),

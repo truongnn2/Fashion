@@ -39,7 +39,7 @@ public partial class Admins_Products_AddNew : System.Web.UI.Page
     }
     private void Showdata()
     {
-        string SQL = "select Title,Content,Photo,Category,CategoryDetail,isHot,Price,IsShowPrice,Location,Intro,IsShowDefault,TitleE,ContentE,FileAttach,CategoryDetailSub,PromotionPrice,IsNew,IsMostView,IdInput from Products where ID = " + Request.QueryString["id"];
+        string SQL = "select Title,Content,Photo,Category,CategoryDetail,isHot,Price,IsShowPrice,Location,Intro,IsShowDefault,TitleE,ContentE,FileAttach,CategoryDetailSub,PromotionPrice,IsNew,IsMostView from Products where ID = " + Request.QueryString["id"];
         IList list = db.getList(SQL);
         if (list != null && list.Count > 0)
         {
@@ -67,7 +67,6 @@ public partial class Admins_Products_AddNew : System.Web.UI.Page
             //hdCategoryDetailSub.Value = common.ToString(o[14]);
             sltLocation.Value = common.ToString(o[8]);
             txtIntro.Value = common.ToString(o[9]);
-            txtIdInput.Value = common.ToString(o[18]);
             if (common.ToString(o[2]) != "")
             {
                 string[] listimg = common.ToString(o[2]).Split(',');
@@ -135,7 +134,6 @@ public partial class Admins_Products_AddNew : System.Web.UI.Page
             TD.Intro = txtIntro.Value;
             TD.Status = 0;
             TD.Category = Convert.ToInt16(sltCategory.Value);
-            TD.IdInput = txtIdInput.Value;
             if (hdCategoryDetail.Value != "")
                 TD.CategoryDetail = Convert.ToInt16(hdCategoryDetail.Value);
             else TD.CategoryDetail = 0;

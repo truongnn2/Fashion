@@ -40,7 +40,7 @@
                                         <td><label>Danh mục sản phẩm:</label></td>
                                         <td><select name="sltCategory" style="WIDTH:150px" id="sltCategory" runat="server"  onchange="ajxProducts.GetListCatDetail();">
                                         </select></td>
-                                         <td><label>Danh mục sản phẩm chi tiết:</label></td>
+                                         <td><label>Danh mục sản phẩm chi tiết:</label></!--td>
                                         <td><select name="sltCategoryDetail" style="WIDTH:150px" id="sltCategoryDetail" runat="server">
                                         </select></td>
                                     </tr>

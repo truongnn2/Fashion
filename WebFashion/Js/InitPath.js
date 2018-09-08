@@ -1,2 +1,2 @@
-﻿pathClient="http://localhost:49188/WebFashion";
+﻿pathClient="http://localhost:49188";
 

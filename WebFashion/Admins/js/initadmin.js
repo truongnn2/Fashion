@@ -1,3 +1,3 @@
-﻿PathAdmin='http://localhost:49188/WebFashion/admins';
-PathClient='http://localhost:49188/WebFashion';
+﻿PathAdmin='http://localhost:49188/admins';
+PathClient='http://localhost:49188';
 

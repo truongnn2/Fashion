@@ -28,3 +28,8 @@ D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\DataPro
 D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\DataProvider\obj\Debug\ResolveAssemblyReference.cache
 D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\DataProvider\obj\Debug\DataProvider.dll
 D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\DataProvider\obj\Debug\DataProvider.pdb
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DataProvider\bin\Debug\DataProvider.dll
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DataProvider\bin\Debug\DataProvider.pdb
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DataProvider\obj\Debug\DataProvider.csproj.CoreCompileInputs.cache
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DataProvider\obj\Debug\DataProvider.dll
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DataProvider\obj\Debug\DataProvider.pdb

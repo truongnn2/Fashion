@@ -40,3 +40,12 @@ D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\DBBusin
 D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\DBBusiness\obj\Debug\ResolveAssemblyReference.cache
 D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\DBBusiness\obj\Debug\DBBusiness.dll
 D:\Anh 5\Information Technology Engineer\Com-Ao-Gao-Tien\Fashion\Fashion\DBBusiness\obj\Debug\DBBusiness.pdb
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DBBusiness\bin\Debug\DBBusiness.dll
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DBBusiness\bin\Debug\DBBusiness.pdb
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DBBusiness\bin\Debug\DataProvider.dll
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DBBusiness\bin\Debug\DataProvider.pdb
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DBBusiness\obj\Debug\DBBusiness.csprojAssemblyReference.cache
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DBBusiness\obj\Debug\DBBusiness.csproj.CoreCompileInputs.cache
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DBBusiness\obj\Debug\DBBusiness.csproj.CopyComplete
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DBBusiness\obj\Debug\DBBusiness.dll
+C:\Users\truongnn2\Documents\GitHub\Fashion\Fashion\DBBusiness\obj\Debug\DBBusiness.pdb

@@ -15,7 +15,7 @@ namespace DBBusiness
         }
         public bool insert(ref string err, Products td)
         {
-            return db.MyExecuteNonQuery("insert into Products (Title,TitleE,Content,ContentE,Category,CategoryDetail,CategoryDetailSub,DateCreate,Status,IsHot,Price,IsShowPrice,Location,Intro,IsShowDefault,PromotionPrice,IsNew,IsMostView, IdInput) values(@Title,@TitleE,@Content,@ContentE,@Category,@CategoryDetail,@CategoryDetailSub,@DateCreate,@Status,@IsHot,@Price,@IsShowPrice,@Location,@Intro,@IsShowDefault,@PromotionPrice,@IsNew,@IsMostView,@IdInput)", CommandType.Text, ref err,
+            return db.MyExecuteNonQuery("insert into Products (Title,TitleE,Content,ContentE,Category,CategoryDetail,CategoryDetailSub,DateCreate,Status,IsHot,Price,IsShowPrice,Location,Intro,IsShowDefault,PromotionPrice,IsNew,IsMostView) values(@Title,@TitleE,@Content,@ContentE,@Category,@CategoryDetail,@CategoryDetailSub,@DateCreate,@Status,@IsHot,@Price,@IsShowPrice,@Location,@Intro,@IsShowDefault,@PromotionPrice,@IsNew,@IsMostView)", CommandType.Text, ref err,
                 new SqlParameter("@Title", td.Title),
                 new SqlParameter("@TitleE", td.TitleE),
                 new SqlParameter("@Content", td.Content),
@@ -33,8 +33,7 @@ namespace DBBusiness
                 new SqlParameter("@IsShowDefault", td.IsShowDefault),
                 new SqlParameter("@PromotionPrice", td.PromotionPrice),
                 new SqlParameter("@IsNew", td.IsNew),
-                new SqlParameter("@IsMostView", td.IsMostView),
-                new SqlParameter("@IdInput", td.IdInput)
+                new SqlParameter("@IsMostView", td.IsMostView)
                 );
         }
         public bool updatePhoto(ref string err, Products td)
@@ -53,7 +52,7 @@ namespace DBBusiness
         }
         public bool update(ref string err, Products td)
         {
-            return db.MyExecuteNonQuery("update Products set Title=@Title,TitleE=@TitleE,Content=@Content,ContentE=@ContentE,Category=@Category,CategoryDetail=@CategoryDetail,CategoryDetailSub=@CategoryDetailSub,Status=@Status,IsHot=@IsHot,IsShowPrice=@IsShowPrice,Price=@Price,Location=@Location,Intro=@Intro,IsShowDefault=@IsShowDefault,PromotionPrice=@PromotionPrice,IsNew=@IsNew,IsMostView=@IsMostView, IdInput = @IdInput where ID=@id", CommandType.Text, ref err,
+            return db.MyExecuteNonQuery("update Products set Title=@Title,TitleE=@TitleE,Content=@Content,ContentE=@ContentE,Category=@Category,CategoryDetail=@CategoryDetail,CategoryDetailSub=@CategoryDetailSub,Status=@Status,IsHot=@IsHot,IsShowPrice=@IsShowPrice,Price=@Price,Location=@Location,Intro=@Intro,IsShowDefault=@IsShowDefault,PromotionPrice=@PromotionPrice,IsNew=@IsNew,IsMostView=@IsMostView where ID=@id", CommandType.Text, ref err,
                 new SqlParameter("@id", td.ID),
                 new SqlParameter("@Title", td.Title),
                 new SqlParameter("@TitleE", td.TitleE),
@@ -71,8 +70,7 @@ namespace DBBusiness
                 new SqlParameter("@IsShowDefault", td.IsShowDefault),
                 new SqlParameter("@PromotionPrice", td.PromotionPrice),
                 new SqlParameter("@IsNew", td.IsNew),
-                new SqlParameter("@IsMostView", td.IsMostView),
-                new SqlParameter("@IdInput", td.IdInput)
+                new SqlParameter("@IsMostView", td.IsMostView)
                 );
         }
         public bool updateStatus(ref string err, Products td)

@@ -30,7 +30,7 @@
 					<ul id="ul1"  style="display:none;">
 						<li><a id="s3" href="<%=pathAdmin%>/Products/ListProducts.aspx"><span class="l"><span></span></span><span class="m"><em>Sản phẩm</em><span></span></span><span class="r"><span></span></span></a></li>
 						<li><a id="s2" href="<%=pathAdmin%>/Menu/ListCategory.aspx"><span class="l"><span></span></span><span class="m"><em>DM SP cấp 1</em><span></span></span><span class="r"><span></span></span></a></li>
-						<li><a id="s1" href="<%=pathAdmin%>/MenuSub/ListCategorySub.aspx?cat=0"><span class="l"><span></span></span><span class="m"><em>DM SP cấp 2</em><span></span></span><span class="r"><span></span></span></a></li>
+						<!--li><a id="s1" href="<%=pathAdmin%>/MenuSub/ListCategorySub.aspx?cat=0"><span class="l"><span></span></span><span class="m"><em>DM SP cấp 2</em><span></span></span><span class="r"><span></span></span></a></!--li-->
 						<li><a id="s6" href="<%=pathAdmin %>/AboutUs/AboutUs.aspx?id=1"><span class="l"><span></span></span><span class="m"><em>Giới thiệu</em><span></span></span><span class="r"><span></span></span></a></li>
 						<li><a id="s9" href="<%=pathAdmin %>/ContactUs/ContactUs.aspx"><span class="l"><span></span></span><span class="m"><em>KH Góp ý - Liên hệ</em><span></span></span><span class="r"><span></span></span></a></li>
 						<li><a id="s10" href="<%=pathAdmin%>/Solution/ListSolution.aspx"><span class="l"><span></span></span><span class="m"><em>Khuyễn Mãi</em><span></span></span><span class="r"><span></span></span></a></li>

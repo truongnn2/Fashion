@@ -36,8 +36,12 @@ public partial class _Default : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         favicon.Attributes.Add("href", pathClient + "/favicon.ico");
-        StyleTag1.Attributes.Add("href", pathClient + "/Css/templatemo_style.css");
-        StyleTag.Attributes.Add("href", pathClient + "/Css/styles.css");
+        StyleTag00.Attributes.Add("href", pathClient + "/Css/stylesheetweb.css");
+        StyleTag01.Attributes.Add("href", pathClient + "/Css/simple-sidebar.css");
+        StyleTag.Attributes.Add("href", pathClient + "/Css/style.css");
+        StyleTag1.Attributes.Add("href", pathClient + "/Css/owl.carousel.css");
+        StyleTag2.Attributes.Add("href", pathClient + "/Css/owl.carousel.partner.css");
+        StyleTag3.Attributes.Add("href", pathClient + "/Css/animate.min.css");
         Titlepage = Global.Resource.GetString("lblTitlepage", Global.ci);
         //TitleProductsViewCount = Global.Resource.GetString("lblTitleProductsViewCount", Global.ci);
         //TitleProductsNew = Global.Resource.GetString("lblNewProduct", Global.ci);

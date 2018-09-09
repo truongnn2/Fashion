@@ -292,7 +292,9 @@
             	        
             </ul>
 
-            </div><!--
+            </div>
+
+<!--
     <div class="ws_bullets"><div>
 	     
                     <a href="#" title=""></a>
@@ -308,7 +310,10 @@
                     <a href="#" title=""></a>
             
     </div></div>
-    <div class="ws_shadow"></div>-->        </div>
+    <div class="ws_shadow"></div>-->
+
+        </div>
+
             <script type="text/javascript" src="<%=pathClient %>/js/RCP/wowslider.js"></script>
             <script type="text/javascript" src="<%=pathClient %>/js/RCP/script.js"></script>
             <!-- End WOWSlider.com BODY section -->

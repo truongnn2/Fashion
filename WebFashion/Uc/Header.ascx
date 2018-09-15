@@ -1,30 +1,72 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Header.ascx.cs" Inherits="Uc_Header" %>
-<div id="templatemo_menu">
-                <%=menutop%>   	
-            </div> <!-- end of templatemo_menu -->
-            
-            <div id="templatemo_header_bar">
-            
-                    <div id="header"><div class="right"></div>
-                    
-                        <h1><a href="#">
-                            <img src="<%=pathClient %>/images/templatemo_logo.png" alt="Site Title" />
-                            <span>Online Store Template</span>
-                        </a></h1>
-                    </div>
-                    
-                    <div id="search_box">
-                        <div style="position:absolute;margin-left:43px;margin-top:-61px" class="Language">
-	                        <a href="<%=pathClient %>/0/trang-chu.aspx"><img width="32" height="20" src="<%=pathClient %>/images/flag_vn.jpg"><span style="color:#FFF;font-weight:bold;padding-left:5px;font-size:14px;margin-right:20px;">Việt Nam</span></a>
-	                        <a href="<%=pathClient %>/1/trang-chu.aspx"><img width="32" height="20" src="<%=pathClient %>/images/flag_en.jpg"><span style="color:#FFF;font-weight:bold;padding-left:5px;font-size:14px;">English</span></a>
+
+
+
+        <div class="banner">
+            <div class="banner_fix">
+                <a href="<%=pathClient %>/#menu-toggle" id="menu-toggle"></a>
+                <div class="logo">
+                    <a href="<%=pathClient %>">
+                        <img alt="thinhphu.com" src="<%=pathClient %>/images/logo.png"></a>
+                </div>
+                <div class="banner_right">
+                    <div class="fbanner">
+                        <div class="hotline">
+                            <ul>
+                                <li><strong>(093) 3850 287</strong><br>
+                                    info@thinhphu.com</li>
+                                <li><strong>08:00 - 18:00</strong><br>
+                                    Thứ 2 đến Thứ 7</li>
+                            </ul>
                         </div>
-                        <form action="#" method="get">
-                            <input type="text" value="Enter keyword here..." name="q" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)" onblur="clearText(this)"  onkeypress="return KeyPress(event,'search');" />
-                            <input type="button" name="Search" value="" alt="Search" id="searchbutton" title="Search" onclick="search1();" />
-                        </form>
+                        <!--a class="dangtin" href="<%=pathClient %>/dang-tin/">Đăng tin</a-->
+                        <div class="mxh">
+                            <ul>
+                                <li>
+                                    <a href="https://facebook.com/" target="_blank">
+                                        <img alt="Facebook" src="<%=pathClient %>/images/mxh1.png">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://twitter.com/" target="_blank">
+                                        <img alt="Twitter" src="<%=pathClient %>/images/mxh2.png">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://youtube.com/" target="_blank">
+                                        <img alt="Youtube" src="<%=pathClient %>/images/mxh3.png">
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="lang">
+                            <ul>
+                                <li><a href="<%=pathClient %>/0/trang-chu.aspx" class="vn"></a></li>
+                                <li><a href="<%=pathClient %>/1/trang-chu.aspx" class="en"></a></li>
+                            </ul>
+                        </div>
                     </div>
-            
-            </div> <!-- end of templatemo_header_bar --> 
+                    <%=menutop %>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+
+           <%=menutopMobile %>
+        
+        <!-- /#sidebar-wrapper -->
+        <script type="text/javascript">
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+
 <input id="hdLanguage1" type="hidden" value="<%=language %>">
 
 <script>
@@ -63,19 +105,4 @@
         window.location = "<%=pathClient %>/" + $("#hdLanguage1").val() + "/trang-1/danh-sach-san-pham/" + kw + ".aspx";
     }	
    
-</script>
-<script>
-    sUrl = '<%=Request.Url.ToString()%>';
-    if (sUrl.toLowerCase().indexOf('default.aspx') != -1)
-        document.getElementById('mn0').className = 'current';
-    else if (sUrl.toLowerCase().indexOf('about.aspx') != -1) 
-        document.getElementById('mn1').className = 'current';
-    else if (sUrl.toLowerCase().indexOf('products.aspx') != -1 || sUrl.toLowerCase().indexOf('productsdetail.aspx') != -1) 
-        document.getElementById('mn2').className = 'current';
-    else if (sUrl.toLowerCase().indexOf('listnews.aspx') != -1 || sUrl.toLowerCase().indexOf('newsdetail.aspx') != -1) 
-        document.getElementById('mn3').className = 'current';
-    else if (sUrl.toLowerCase().indexOf('solutiondetail.aspx') != -1 || sUrl.toLowerCase().indexOf('listsolution.aspx') != -1) 
-        document.getElementById('mn4').className = 'current';
-    else if (sUrl.toLowerCase().indexOf('contactus.aspx') != -1)
-        document.getElementById('mn5').className = 'current';
 </script>

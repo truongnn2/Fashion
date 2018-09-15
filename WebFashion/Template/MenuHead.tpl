@@ -1,33 +1,16 @@
-﻿<ul>
-  <li>
-    <a id="mn0" href="{6}" target="_parent">
-      <span>{0}</span>
-    </a>
-  </li>
-  <li>
-    <a id="mn1" href="{7}" target="_parent">
-      <span>{1}</span>
-    </a>
-  </li>
-  <li>
-    <a id="mn2" href="{8}" target="_parent">
-      <span>{2}</span>
-    </a>
-  </li>
-  <li>
-    <a id="mn3" href="{9}" target="_parent">
-      <span>{3}</span>
-    </a>
-  </li>
-  <li>
-    <a id="mn4" href="{10}" target="_parent">
-      <span>{4}</span>
-    </a>
-  </li>
-  <li>
-    <a id="mn5" href="{11}" target="_parent">
-      <span>{5}</span>
-    </a>
-  </li>
-</ul>
-
+﻿<div class="banner_menu_top">
+	<div class="banner_menu_fix">
+		<ul class="nav">
+			<li class="mn1"><a href="{11}"></a></li>
+			<li class="mn2"><a href="{3}">{2}</a></li>
+			<li class="mn3">
+				<a href="{5}">{4}</a>
+				 {10}
+			</li>
+			<li class="mn5">
+				<a href="{7}">{6}</a>
+			</li>
+			<li class="mn9"><a href="{9}">{8}</a></li>
+		</ul>
+	</div>
+</div>

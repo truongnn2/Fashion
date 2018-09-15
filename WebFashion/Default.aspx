@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
-
 <%@ Register TagPrefix="uc1" TagName="UcRight" Src="Uc/Right.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="UcLeft" Src="~/Uc/Left.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="UcBottom" Src="~/Uc/Bottom.ascx" %>
@@ -38,190 +37,21 @@
     <form runat="server" id="form1">
       <div id="wrapper">
         <div id="page-content-wrapper">
-        <script type="text/javascript">
-            jQuery("document").ready(function ($) {
+            <script type="text/javascript">
+                jQuery("document").ready(function ($) {
 
-                var nav = $('.banner');
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 150) {
-                        nav.addClass("f-nav");
-                    } else {
-                        nav.removeClass("f-nav");
-                    }
+                    var nav = $('.banner');
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 150) {
+                            nav.addClass("f-nav");
+                        } else {
+                            nav.removeClass("f-nav");
+                        }
+                    });
+
                 });
-
-            });
-        </script>
-
-        <div class="banner">
-            <div class="banner_fix">
-                <a href="http://vaithun.com/#menu-toggle" id="menu-toggle"></a>
-                <div class="logo">
-                    <a href="http://vaithun.com/">
-                        <img alt="vaithun.com" src="<%=pathClient %>/images/logo.png"></a>
-                </div>
-                <div class="banner_right">
-                    <div class="fbanner">
-                        <div class="hotline">
-                            <ul>
-                                <li><strong>(028) 3971 8092</strong><br>
-                                    info@vaithun.com</li>
-                                <li><strong>08:00 - 18:00</strong><br>
-                                    Thứ 2 đến Thứ 7</li>
-                            </ul>
-                        </div>
-                        <a class="dangtin" href="http://vaithun.com/dang-tin/">Đăng tin</a>
-                        <div class="mxh">
-                            <ul>
-
-                                <li>
-                                    <a href="https://facebook.com/" target="_blank">
-                                        <img alt="Facebook" src="<%=pathClient %>/images/mxh1.png">
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="https://twitter.com/" target="_blank">
-                                        <img alt="Twitter" src="<%=pathClient %>/images/mxh2.png">
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="https://youtube.com/" target="_blank">
-                                        <img alt="Youtube" src="<%=pathClient %>/images/mxh3.png">
-                                    </a>
-                                </li>
-
-                            </ul>
-                        </div>
-                        <div class="lang">
-                            <ul>
-                                <li><a href="http://vaithun.com/" class="vn"></a></li>
-                                <li><a href="http://vaithun.com/en/" class="en"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="banner_menu_top">
-                        <div class="banner_menu_fix">
-                            <ul class="nav">
-                                <li class="mn1"><a href="http://vaithun.com/"></a></li>
-                                <li class="mn2"><a href="http://vaithun.com/gioi-thieu/">Giới thiệu</a></li>
-                                <li class="mn3">
-                                    <a>Sản phẩm</a>
-                                    <ul class="sub-menu">
-
-                                        <li>
-                                            <a href="http://vaithun.com/san-pham-vai-thun-1/">Sản phẩm vải thun
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="http://vaithun.com/thanh-ly-hang-ton-kho-2/">Thanh lý hàng tồn kho
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="http://vaithun.com/soi-cac-loai-3/">Sợi các loại
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                                <li class="mn4"><a href="http://vaithun.com/nha-xuong/">Nhà xưởng</a></li>
-                                <li class="mn5">
-                                    <a>Tin tức - Báo chí</a>
-                                    <ul class="sub-menu">
-
-                                        <li>
-                                            <a href="http://vaithun.com/tin-tuc/tin-tuc-nganh-det-may-thoi-trang-10">Tin tức ngành dệt may, thời trang
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="http://vaithun.com/tin-tuc/bao-chi-truyen-thong-9">Báo chí - Truyền thông
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="http://vaithun.com/tin-tuc/tin-tuc-cong-ty-8">Tin tức công ty
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                                <li class="mn6"><a href="http://vaithun.com/hinh-anh/">Hình ảnh</a></li>
-                                <li class="mn7"><a href="http://vaithun.com/rao-vat/">Rao vặt</a></li>
-                                <li class="mn8"><a href="http://vaithun.com/tuyen-dung/">Tuyển dụng</a></li>
-                                <li class="mn9"><a href="http://vaithun.com/lien-he/">Liên hệ</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Sidebar -->
-
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li><a href="http://vaithun.com/">Trang chủ</a></li>
-                <li><a href="http://vaithun.com/gioi-thieu/">Giới thiệu</a></li>
-                <li>
-                    <a>Sản phẩm</a>
-                    <ul>
-
-                        <li>
-                            <a href="http://vaithun.com/san-pham-vai-thun-1/">Sản phẩm vải thun
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="http://vaithun.com/thanh-ly-hang-ton-kho-2/">Thanh lý hàng tồn kho
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="http://vaithun.com/soi-cac-loai-3/">Sợi các loại
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-                <li><a href="http://vaithun.com/nha-xuong/">Nhà xưởng</a></li>
-                <li>
-                    <a>Tin tức - Báo chí</a>
-                    <ul>
-
-                        <li>
-                            <a href="http://vaithun.com/tin-tuc/tin-tuc-nganh-det-may-thoi-trang-10">Tin tức ngành dệt may, thời trang
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="http://vaithun.com/tin-tuc/bao-chi-truyen-thong-9">Báo chí - Truyền thông
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="http://vaithun.com/tin-tuc/tin-tuc-cong-ty-8">Tin tức công ty
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
-                <li><a href="http://vaithun.com/hinh-anh/">Hình ảnh</a></li>
-                <li><a href="http://vaithun.com/rao-vat/">Rao vặt</a></li>
-                <li><a href="http://vaithun.com/tuyen-dung/">Tuyển dụng</a></li>
-                <li><a href="http://vaithun.com/lien-he/">Liên hệ</a></li>
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
-        <script type="text/javascript">
-            $("#menu-toggle").click(function (e) {
-                e.preventDefault();
-                $("#wrapper").toggleClass("toggled");
-            });
-        </script>
+            </script>
+            <uc1:UcHeader ID="UcHeader1" runat="server" />
 
         <!-- Start WOW Slider.com HEAD section -->
         <script type="text/javascript" src="<%=pathClient %>/js/RCP/jquery.js"></script>
@@ -231,64 +61,64 @@
             <!-- Start WOWSlider.com BODY section -->
 
           <div id="wowslider-container">
-            <div class="ws_images"><ul>
-	     
-                        <li>
-                            <a href="/">
-                                <img src="<%=pathClient %>/images/vai_thun_1.jpg" alt="" title="" id='wows1_1'/>
-                            </a>
-                            <a class="sum" href="/">
+            <div class="ws_images">
+                <ul>
+                <li>
+                    <a href="/">
+                        <img src="<%=pathClient %>/images/vai_thun_1.jpg" alt="" title="" id='wows1_1'/>
+                    </a>
+                    <a class="sum" href="/">
                         
-                            </a>
-                        </li>
+                    </a>
+                </li>
              
-                        <li>
-                            <a href="/">
-                                <img src="<%=pathClient %>/images/vai_thun_2018.jpg" alt="" title="" id='wows1_2'/>
-                            </a>
-                            <a class="sum" href="/">
+                <li>
+                    <a href="/">
+                        <img src="<%=pathClient %>/images/vai_thun_2018.jpg" alt="" title="" id='wows1_2'/>
+                    </a>
+                    <a class="sum" href="/">
                         
-                            </a>
-                        </li>
+                    </a>
+                </li>
              
-                        <li>
-                            <a href="/">
-                                <img src="<%=pathClient %>/images/Slide_vaithun.jpg" alt="" title="" id='wows1_3'/>
-                            </a>
-                            <a class="sum" href="/">
-                                <h2>Về <em>Lami Group</em></h2>
-        <p>C&ocirc;ng ty tr&aacute;ch nhiệm hữu hạn sản xuất thương mại v&agrave; dịch vụ La Mi được th&agrave;nh lập năm 2003 hoạt động trong lĩnh vực dệt may thời trang g&oacute;p phần đưa ng&agrave;nh dệt may thời trang Việt Nam trở th&agrave;nh ng&agrave;nh kinh tế mũi nhọn của quốc gia</p>
-                            </a>
-                        </li>
+                <li>
+                    <a href="/">
+                        <img src="<%=pathClient %>/images/Slide_vaithun.jpg" alt="" title="" id='wows1_3'/>
+                    </a>
+                    <a class="sum" href="/">
+                        <h2>Về <em>Lami Group</em></h2>
+<p>C&ocirc;ng ty tr&aacute;ch nhiệm hữu hạn sản xuất thương mại v&agrave; dịch vụ La Mi được th&agrave;nh lập năm 2003 hoạt động trong lĩnh vực dệt may thời trang g&oacute;p phần đưa ng&agrave;nh dệt may thời trang Việt Nam trở th&agrave;nh ng&agrave;nh kinh tế mũi nhọn của quốc gia</p>
+                    </a>
+                </li>
              
-                        <li>
-                            <a href="/">
-                                <img src="<%=pathClient %>/images/Slide_vaithun_7.jpg" alt="" title="" id='wows1_4'/>
-                            </a>
-                            <a class="sum" href="/">
-                                <h2>Ng&agrave;nh nghề<em> ch&iacute;nh</em></h2>
-        <p>Ph&aacute;p huy tối đa năng lực c&oacute; sẵn, C&ocirc;ng ty TNHH sản xuất thương mại v&agrave; dịch vụ La Mi hoạt động tr&ecirc;n ba lĩnh vực ch&iacute;nh: Kinh doanh c&aacute;c sản phẩm sợi dệt, Sản suất v&agrave; kinh doanh vải dệt kim, Mua b&aacute;n nguy&ecirc;n phụ liệu ng&agrave;nh may</p>
-                            </a>
-                        </li>
+                <li>
+                    <a href="/">
+                        <img src="<%=pathClient %>/images/Slide_vaithun_7.jpg" alt="" title="" id='wows1_4'/>
+                    </a>
+                    <a class="sum" href="/">
+                        <h2>Ng&agrave;nh nghề<em> ch&iacute;nh</em></h2>
+<p>Ph&aacute;p huy tối đa năng lực c&oacute; sẵn, C&ocirc;ng ty TNHH sản xuất thương mại v&agrave; dịch vụ La Mi hoạt động tr&ecirc;n ba lĩnh vực ch&iacute;nh: Kinh doanh c&aacute;c sản phẩm sợi dệt, Sản suất v&agrave; kinh doanh vải dệt kim, Mua b&aacute;n nguy&ecirc;n phụ liệu ng&agrave;nh may</p>
+                    </a>
+                </li>
              
-                        <li>
-                            <a href="/">
-                                <img src="<%=pathClient %>/images/Slide_vaithun_2.jpg" alt="" title="" id='wows1_5'/>
-                            </a>
-                            <a class="sum" href="/">
-                                <h2>Phương <em>ch&acirc;m</em></h2>
-        <p>Với phương ch&acirc;m: &ldquo;Uy T&iacute;n, Chất Lượng, Gi&aacute; Cả Cạnh Tranh&rdquo; ch&uacute;ng t&ocirc;i phấn đấu để trở th&agrave;nh doanh nghiệp sản xuất vải thun cao cấp v&agrave; tin tưởng c&oacute; thể đ&aacute;p ứng c&aacute;c y&ecirc;u cầu kỹ thuật, mỹ thuật, chất lượng cũng như c&aacute;c y&ecirc;u cầu về tiến độ, thời trang</p>
-                            </a>
-                        </li>
+                <li>
+                    <a href="/">
+                        <img src="<%=pathClient %>/images/Slide_vaithun_2.jpg" alt="" title="" id='wows1_5'/>
+                    </a>
+                    <a class="sum" href="/">
+                        <h2>Phương <em>ch&acirc;m</em></h2>
+<p>Với phương ch&acirc;m: &ldquo;Uy T&iacute;n, Chất Lượng, Gi&aacute; Cả Cạnh Tranh&rdquo; ch&uacute;ng t&ocirc;i phấn đấu để trở th&agrave;nh doanh nghiệp sản xuất vải thun cao cấp v&agrave; tin tưởng c&oacute; thể đ&aacute;p ứng c&aacute;c y&ecirc;u cầu kỹ thuật, mỹ thuật, chất lượng cũng như c&aacute;c y&ecirc;u cầu về tiến độ, thời trang</p>
+                    </a>
+                </li>
              
-                        <li>
-                            <a href="/">
-                                <img src="<%=pathClient %>/images/16_12_59_Slide_vaithun.jpg" alt="" title="" id='wows1_6'/>
-                            </a>
-                            <a class="sum" href="/">
+                <li>
+                    <a href="/">
+                        <img src="<%=pathClient %>/images/16_12_59_Slide_vaithun.jpg" alt="" title="" id='wows1_6'/>
+                    </a>
+                    <a class="sum" href="/">
                         
-                            </a>
-                        </li>
+                    </a>
+                </li>
             	        
             </ul>
 
@@ -1149,7 +979,7 @@
             });
 </script>
 </div>
-</div>
+      </div>
     </form>
 </body>
 </html>

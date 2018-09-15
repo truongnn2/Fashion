@@ -18,25 +18,56 @@ public partial class Uc_Header : System.Web.UI.UserControl
     public string listImage = "";
     public string listjs = "";
     public string flash = "";
+    public string menutopMobile = "";
     public string menutop = "";
     public string language = "";
     protected void Page_Load(object sender, EventArgs e)
     {
-        flash = common.ToString(Request.QueryString["l"]) == "1" ? "banner_top_en.swf" : "banner_top.swf";
+        string ml = string.Empty;
+        string ml1 = string.Empty;
+        getList db = new getList();
+        IList listMenu = db.getlist("Select ID,Name,NameE from Menu where Status=0 order by Location desc");
+        if (listMenu != null && listMenu.Count > 0)
+        {
+            for (int i = 0; i < listMenu.Count; i++)
+            {
+                object[] o = (object[])listMenu[i];
+                string link = common.GetUrlCat(common.ToString(o[1]), common.ToString(o[0]), Global.l, "1");
+                ml += String.Format("<li><a href=\"{1}\">{0}</a></li>",
+                    /*0*/common.ToString(Request.QueryString["l"]) == "1" ? common.ToString(o[2]) : common.ToString(o[1]),
+                    /*1*/link
+                );
+               
+            }
+            ml = String.Format("<ul>{0}</ul>",ml);
+            ml1 = String.Format("<ul class=\"sub-menu\">{0}</ul>", ml);
+        }
+        menutopMobile = String.Format(common.GetTemplate("MenuHeadMobile.tpl"),
+             Global.Resource.GetString("lblTrangchu", Global.ci), //0
+             pathClient + "/" + Global.l + "/trang-chu.aspx",//1
+             Global.Resource.GetString("lblGioithieu", Global.ci), //2
+             pathClient + "/" + Global.l + "/gioi-thieu.aspx",//3
+             Global.Resource.GetString("lblProduct", Global.ci), //4
+             pathClient + "/" + Global.l + "/trang-1/danh-sach-san-pham.aspx",//5
+             Global.Resource.GetString("lblNews", Global.ci),//6
+             pathClient + "/" + Global.l + "/trang-1/tin-tuc.aspx",//7
+             Global.Resource.GetString("lblLienhe", Global.ci), //8 
+             pathClient + "/" + Global.l + "/lien-he.aspx",//9
+             ml //10
+            );
         menutop = String.Format(common.GetTemplate("MenuHead.tpl"),
              Global.Resource.GetString("lblTrangchu", Global.ci), //0
-             Global.Resource.GetString("lblGioithieu", Global.ci), //1
-             Global.Resource.GetString("lblProduct", Global.ci), //2
-             Global.Resource.GetString("lblNews", Global.ci),//3
-             Global.Resource.GetString("lblPromotion", Global.ci), //4
-             Global.Resource.GetString("lblLienhe", Global.ci), //5 
-             pathClient +"/"+ Global.l + "/trang-chu.aspx",//6
-             pathClient + "/" + Global.l + "/gioi-thieu.aspx" ,//7
-             pathClient + "/" + Global.l + "/trang-1/danh-sach-san-pham.aspx",//8
-             pathClient + "/" + Global.l + "/trang-1/tin-tuc.aspx",//9
-             pathClient + "/" + Global.l + "/trang-1/khuyen-mai.aspx",//10
-             pathClient + "/" + Global.l + "/lien-he.aspx",//11
-             pathClient //12
+             pathClient + "/" + Global.l + "/trang-chu.aspx",//1
+             Global.Resource.GetString("lblGioithieu", Global.ci), //2
+             pathClient + "/" + Global.l + "/gioi-thieu.aspx",//3
+             Global.Resource.GetString("lblProduct", Global.ci), //4
+             pathClient + "/" + Global.l + "/trang-1/danh-sach-san-pham.aspx",//5
+             Global.Resource.GetString("lblNews", Global.ci),//6
+             pathClient + "/" + Global.l + "/trang-1/tin-tuc.aspx",//7
+             Global.Resource.GetString("lblLienhe", Global.ci), //8 
+             pathClient + "/" + Global.l + "/lien-he.aspx",//9
+             ml1, //10
+             pathClient //11
             );
         language = common.ToString(Request.QueryString["l"])==""?"0":"1";
         GetProducts();

@@ -121,7 +121,9 @@ a.dangtin2 {float:left; display:block; margin:0.5em 1em
 a.giohang {background:url(../images/icon_cart.png) no-repeat 0.5em center; padding:0.5em 0 0.5em 2.3em; font-weight:400;
            font-size:0.9em; color:#ffffff; float:right
             }
-.mxh {float:left; margin:0.3em 0 0.3em 0;
+.mxh {
+    float: left;
+    margin: 0.3em 0 0.3em 20px;
 }
 .mxh ul {list-style:none; margin:0; padding:0; display:inline-block; text-align:right;
 }

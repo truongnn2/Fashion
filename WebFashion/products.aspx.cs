@@ -29,8 +29,12 @@ public partial class products : System.Web.UI.Page
         favicon.Attributes.Add("href", pathClient + "/favicon.ico");
         Titlepage = Global.Resource.GetString("lblTitlepage", Global.ci);
         hdfRecordCount.Value = ConfigurationManager.AppSettings["numProducts"];
-        StyleTag1.Attributes.Add("href", pathClient + "/Css/templatemo_style.css");
-        StyleTag.Attributes.Add("href", pathClient + "/Css/styles.css");
+        StyleTag00.Attributes.Add("href", pathClient + "/Css/stylesheetweb.css");
+        StyleTag01.Attributes.Add("href", pathClient + "/Css/simple-sidebar.css");
+        StyleTag.Attributes.Add("href", pathClient + "/Css/style.css");
+        StyleTag1.Attributes.Add("href", pathClient + "/Css/owl.carousel.css");
+        StyleTag2.Attributes.Add("href", pathClient + "/Css/owl.carousel.partner.css");
+        StyleTag3.Attributes.Add("href", pathClient + "/Css/animate.min.css");
         if (common.ToString(Request.QueryString["l"]) == "0")
         {
             titleProject = "Sản phẩm";

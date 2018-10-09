@@ -1,7 +1,4 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Header.ascx.cs" Inherits="Uc_Header" %>
-
-
-
         <div class="banner">
             <div class="banner_fix">
                 <a href="<%=pathClient %>/#menu-toggle" id="menu-toggle"></a>

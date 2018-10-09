@@ -227,7 +227,7 @@ ul.nav {
         margin:-3px 0.9em 0; transition:all 0.5s; background-position-x:-130px; margin-top:-3px
     }
      @media screen and (-webkit-min-device-pixel-ratio:0) {	
-    .nav>li{margin:-3px 0.8em 0; 
+    .nav>li{margin:-3px 2.8em 0; 
     }
 }
     .nav>li>a{
@@ -302,7 +302,7 @@ ul.nav {
         line-height: 20px;
         display: inline-block;
     }
-    .nav li:last-child {float:right
+    .nav li:last-child {float:left
         }
         .nav li:last-child {margin-left:0; margin-right:0;
         }
